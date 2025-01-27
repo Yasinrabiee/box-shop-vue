@@ -1,0 +1,124 @@
+@font-face {
+	src: url(../fonts/Vazirmatn-Regular.woff2);
+	font-family: Vazir;
+}
+
+@font-face {
+	src: url(../fonts/Vazirmatn-Regular.woff2);
+	font-family: Vazir;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+*::selection {
+	color: white;
+	background-color: #C2185B;
+}
+
+body {
+	font-family: Vazir;
+	background-color: #FAFAFA;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	margin-block-start: 50px;
+}
+
+.box {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.box-item {
+	width: 282px;
+	background-color: white;
+	padding: 24px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+	border-radius: 6px;
+	transition: 0.50s;
+	cursor: pointer;
+}
+
+.box-item:hover {
+	transform: scale(1.1);
+}
+
+.img {
+	width: 100%;
+}
+
+h4 {
+	font-size: 14px;
+	line-height: 1.5;
+	margin-top: 20px;
+	font-weight: normal;
+}
+
+.offer {
+	margin-top: 24px;
+}
+
+.value {
+	color: #1976D2;
+	background-color: #E3F2FD;
+	border-radius: 4px;
+	font-weight: bold;
+	padding: 2px 4px;
+	font-size: 14px;
+}
+
+.price-old {
+	text-decoration: line-through;
+	color: #546E7A;
+	font-size: 14px;
+}
+
+.new-price {
+	display: inline-block;
+}
+
+.new-value {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.unit {
+	font-size: 14px;
+}
+
+.product__rating-icon {
+	width: 18px;
+	height: 18px;
+	color: #f1c21b;
+}
+
+.rating {
+	display: flex;
+	align-items: center;
+}
+
+.new {
+	display: flex;
+	justify-content: space-between;
+}
+
+.point {
+	font-size: 14px;
+	color: #546E7A;
+}
+
+.new-items {
+	display: flex;
+	align-items: center;
+}
