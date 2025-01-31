@@ -2,9 +2,7 @@ Vue.component("box", {
 	props: ["img", "title", "offer", "oldPrice", "newPrice", "rating"],
 
 	data() {
-		return {
-
-		}
+		return {}
 	},
 
 	template:
