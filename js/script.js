@@ -42,8 +42,4 @@ Vue.component("box", {
 
 new Vue({
 	el: "#app",
-
-	data: {
-		
-	},
 });
